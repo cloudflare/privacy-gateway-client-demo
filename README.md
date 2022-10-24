@@ -1,4 +1,4 @@
-# App Relay Client Application
+# Privacy Gateway Client Demo Application
 
 This sample application shows how to use the [app relay client](XXX) in a sample macOS application. It is meant for demonstration purposes only.
 
