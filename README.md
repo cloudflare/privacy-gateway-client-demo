@@ -4,7 +4,7 @@ This sample application shows how to use the [example Privacy Gateway client lib
 
 To build and run the application, the following steps must be followed.
 
-1. Update the project's Library Search Paths to include the release build directory for the [app relay client](https://github.com/cloudflare/privacy-gateway-client-library), e.g., $(PROJECT_DIR)/relative/path/to/target/x86_64-apple-darwin/release.
+1. Update the project's Library Search Paths to include the release build directory for the [Privacy Gateway client library](https://github.com/cloudflare/privacy-gateway-client-library), e.g., $(PROJECT_DIR)/relative/path/to/target/x86_64-apple-darwin/release.
 2. Add SystemConfiguration.framework to the set of frameworks linked against the application. 
 3. Add libohttp.dylib to the set of libraries linked against the application, where libohttp.dylib is in the app relay client release build.
 
