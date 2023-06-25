@@ -1,10 +1,10 @@
 # Privacy Gateway Client Demo Application
 
-This sample application shows how to use the [app relay client](XXX) in a sample macOS application. It is meant for demonstration purposes only.
+This sample application shows how to use the [example Privacy Gateway client library](https://github.com/cloudflare/privacy-gateway-client-library) in a sample macOS application. It is meant for demonstration purposes only.
 
 To build and run the application, the following steps must be followed.
 
-1. Update the project's Library Search Paths to include the release build directory for the [app relay client](XXX), e.g., $(PROJECT_DIR)/relative/path/to/target/x86_64-apple-darwin/release.
+1. Update the project's Library Search Paths to include the release build directory for the [Privacy Gateway client library](https://github.com/cloudflare/privacy-gateway-client-library), e.g., $(PROJECT_DIR)/relative/path/to/target/x86_64-apple-darwin/release.
 2. Add SystemConfiguration.framework to the set of frameworks linked against the application. 
 3. Add libohttp.dylib to the set of libraries linked against the application, where libohttp.dylib is in the app relay client release build.
 
